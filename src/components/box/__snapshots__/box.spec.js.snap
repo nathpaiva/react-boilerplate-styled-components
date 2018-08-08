@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Test Box Component #Should Box with success 1`] = `
+<h1
+  className="sc-bdVaJa bfhlJX"
+>
+  Hello
+   and
+  <small
+    className="sc-bwzfXH evqhS"
+  >
+    First time using my test.
+  </small>
+</h1>
+`;
