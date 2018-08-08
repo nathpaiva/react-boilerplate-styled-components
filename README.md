@@ -48,4 +48,4 @@ I create a component with test and storybook to have an example.
 
 ### To be able to see the components in Storybook:
 `$ yarn storybook` or `$ npm run storybook`
-* This command to access [storybook in http://localhost:6000/](http://localhost:6000/)
+* This command to access [storybook in http://localhost:6000/](http://localhost:6006/)
