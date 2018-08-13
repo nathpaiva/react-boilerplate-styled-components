@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import img from '../../images/watermelon-shark.jpg';
+import img from '../../images/watermelon-shark.jpg';
 
 
 export const Title = styled.h1`
@@ -7,7 +7,9 @@ export const Title = styled.h1`
   font-size: 40px;
 
   @media (max-width: 700px) {
-    background: palevioletred;
+    height: 200px;
+    width: 200px;
+    background-image: url(${img});
   }
 `;
 
