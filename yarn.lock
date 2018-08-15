@@ -1560,7 +1560,7 @@ babel-preset-env@^1.6.1, babel-preset-env@^1.7.0:
     invariant "^2.2.2"
     semver "^5.3.0"
 
-babel-preset-es2015@^6.24.1, babel-preset-es2015@^6.9.0:
+babel-preset-es2015@^6.9.0:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-preset-es2015/-/babel-preset-es2015-6.24.1.tgz#d44050d6bc2c9feea702aaf38d727a0210538939"
   dependencies:
@@ -2134,12 +2134,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000876"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000876.tgz#0cbd78ad84900196982e5145c26170f6d6a93fd7"
+  version "1.0.30000877"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000877.tgz#29ea435fdbe8a671cc5b027a75e28a816c17c340"
 
 caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000844:
-  version "1.0.30000876"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000876.tgz#69fc1b696a35fd91089061aa916f677ee7057ada"
+  version "1.0.30000877"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000877.tgz#f189673b86ecc06436520e3e391de6a13ca923b4"
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -2222,8 +2222,8 @@ chrome-trace-event@^1.0.0:
     tslib "^1.9.0"
 
 ci-info@^1.0.0:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.1.3.tgz#710193264bb05c77b8c90d02f5aaf22216a667b2"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.2.0.tgz#8d1e9cb4051482ff70cd52a89b4b095a8fb635f6"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -3130,8 +3130,8 @@ ejs@^2.5.9:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47:
-  version "1.3.57"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.57.tgz#61b2446f16af26fb8873210007a7637ad644c82d"
+  version "1.3.58"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.58.tgz#8267a4000014e93986d9d18c65a8b4022ca75188"
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -3369,9 +3369,10 @@ eslint-plugin-jest@^21.17.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.21.0.tgz#f0afd138c4acb5f0cd7698318fb49c7d49f3bf45"
 
 eslint-plugin-react@^7.8.2:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.10.0.tgz#af5c1fef31c4704db02098f9be18202993828b50"
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.11.0.tgz#b3124af974c4da978e62a57ea49a7bc26f11e76d"
   dependencies:
+    array-includes "^3.0.3"
     doctrine "^2.1.0"
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
@@ -3874,8 +3875,8 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.0.4"
 
 follow-redirects@^1.0.0:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.4.tgz#86d1bb946f24cb988d660aaa2ca2478c0772ead1"
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.5.tgz#3c143ca599a2e22e62876687d68b23d55bad788b"
   dependencies:
     debug "^3.1.0"
 
@@ -6289,8 +6290,8 @@ negotiator@0.6.1:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
 neo-async@^2.5.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.2.tgz#489105ce7bc54e709d736b195f82135048c50fcc"
 
 next-tick@1:
   version "1.0.0"
@@ -8977,8 +8978,8 @@ uglifyjs-webpack-plugin@^0.4.6:
     webpack-sources "^1.0.1"
 
 uglifyjs-webpack-plugin@^1.2.4, uglifyjs-webpack-plugin@^1.2.5:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.7.tgz#57638dd99c853a1ebfe9d97b42160a8a507f9d00"
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.3.0.tgz#75f548160858163a08643e086d5fefe18a5d67de"
   dependencies:
     cacache "^10.0.4"
     find-cache-dir "^1.0.0"
