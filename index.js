@@ -2,7 +2,7 @@
 
 const webpack = require('webpack');
 const WebpackDevDerver = require('webpack-dev-server');
-const config = require('./webpack.dev');
+const config = require('./webpack/webpack.dev');
 
 new WebpackDevDerver(webpack(config), {
   publicPath: config.output.publicPath,
@@ -13,6 +13,6 @@ new WebpackDevDerver(webpack(config), {
   }
 }).listen(7000, () => {
   console.log('====================================');
-  console.log('Servidor rodando na :7000');
+  console.log('Server running on :7000');
   console.log('====================================');
 });

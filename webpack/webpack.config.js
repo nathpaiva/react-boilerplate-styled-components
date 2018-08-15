@@ -3,8 +3,8 @@
 const { join } = require('path');
 
 const paths = {
-  src: join(__dirname, 'src'),
-  dist: join(__dirname, 'dist')
+  src: join(__dirname, '..', 'src'),
+  dist: join(__dirname, '..', 'dist')
 };
 
 module.exports = {
