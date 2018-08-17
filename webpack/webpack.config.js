@@ -24,20 +24,52 @@ module.exports = {
   },
 
   jsLoader: {
-    test: /\.js$/,
-    include: paths.src,
-    use: {
-      loader: 'babel-loader',
-      options: {
-        presets: [['env', { modules: false }], 'stage-0', 'react'],
-        plugins: [
-          'react-hot-loader/babel',
-          ['transform-runtime', {
-            helpers: false,
-            polyfill: false,
-            regenerator: true
-          }]
-        ]
+    dev: {
+      test: /\.js$/,
+      include: paths.src,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: [['env', { modules: false }], 'stage-0', 'react'],
+          plugins: [
+            'react-hot-loader/babel',
+            [
+              'babel-plugin-styled-components', {
+                fileName: true,
+                displayName: true,
+                minify: false
+              }
+            ],
+            ['transform-runtime', {
+              helpers: false,
+              polyfill: false,
+              regenerator: true
+            }]
+          ]
+        }
+      }
+    },
+    prod: {
+      test: /\.js$/,
+      include: paths.src,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: [['env', { modules: false }], 'stage-0', 'react'],
+          plugins: [
+            [
+              'babel-plugin-styled-components', {
+                fileName: false,
+                displayName: false,
+                minify: true
+              }
+            ],
+            ['transform-react-remove-prop-types', {
+              removeImport: true
+            }],
+            ['transform-remove-console', { 'exclude': ['error', 'warn'] }]
+          ]
+        }
       }
     }
   },

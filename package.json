@@ -7,10 +7,10 @@
   "scripts": {
     "test:watch": "jest --watch",
     "test": "jest --coverage",
-    "start": "node index.js",
+    "start": "BABEL_ENV=development node index.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "cross-env NODE_ENV=production BABEL_ENV=production webpack --progress --config webpack.prod.js"
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production webpack --progress --config webpack/webpack.prod.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +19,9 @@
     "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.4",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.14",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -51,5 +54,8 @@
       "^[./a-zA-Z0-9$_-]+\\.png$": "<rootDir>/config/ImageStub.js",
       "^[./a-zA-Z0-9$_-]+\\.jpg$": "<rootDir>/config/ImageStub.js"
     }
+  },
+  "dependencies": {
+    "eslint-config-yara": "^2.1.0"
   }
 }

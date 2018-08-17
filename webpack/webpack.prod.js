@@ -8,6 +8,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 
 module.exports = {
+  mode: 'production',
+
   entry: common.entry,
 
   output: common.output,
@@ -66,7 +68,7 @@ module.exports = {
 
   module: {
     rules: [
-      common.jsLoader,
+      common.jsLoader.prod,
       common.fileLoader,
       common.urlLoader
     ]

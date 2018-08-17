@@ -31,7 +31,7 @@ module.exports = {
 
   module: {
     rules: [
-      common.jsLoader,
+      common.jsLoader.dev,
       common.fileLoader,
       common.urlLoader
     ]
