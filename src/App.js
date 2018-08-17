@@ -1,6 +1,6 @@
 'user strict';
 
-import React from 'react'
+import React from 'react';
 import Box from './components/box';
 import './css/reset.css';
 
