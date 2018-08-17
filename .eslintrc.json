@@ -1,3 +1,22 @@
 {
-  "extends": "yara/react"
+  "extends": "yara/react",
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    },
+    "react": {
+      "pragma": "React",
+      "version": "16.0"
+    },
+    "propWrapperFunctions": [
+      "forbidExtraProps",
+      "exact",
+      "Object.freeze"
+    ]
+  }
 }
