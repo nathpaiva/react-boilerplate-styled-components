@@ -6,21 +6,33 @@ I create a component with test and storybook to have an example.
 
 ```bash
 .
-├── App.js
-├── components
-│   └── box
-│       ├── __snapshots__
-│       │   └── box.spec.js.snap
-│       ├── box.spec.js
-│       ├── box.story.js
-│       └── index.js
-├── css
-│   ├── _reset.scss
-├── html
-│   └── template.html
-├── images
-│   └── favicon.ico
-└── index.js
+├── config
+│   └── ImageStub.js
+├── index.js
+├── package.json
+├── src
+│   ├── App.js
+│   ├── components
+│   │   └── box
+│   │       ├── __snapshots__
+│   │       │   └── box.spec.js.snap
+│   │       ├── box.css.js
+│   │       ├── box.spec.js
+│   │       ├── box.story.js
+│   │       └── index.js
+│   ├── css
+│   │   └── reset.css.js
+│   ├── html
+│   │   └── template.html
+│   ├── images
+│   │   ├── favicon.ico
+│   │   └── watermelon-shark.jpg
+│   └── index.js
+├── webpack
+│   ├── webpack.config.js
+│   ├── webpack.dev.js
+│   └── webpack.prod.js
+└── yarn.lock
 ```
 
 ### Project developed with:
